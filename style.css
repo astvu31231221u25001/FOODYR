@@ -301,6 +301,10 @@ nav label i {
     box-shadow: 0 0 15px rgba(0,0,0,0.6);
     transition: 2s ease-in-out;
 }
+.food-items h5{
+      color: yellow;
+      font-family: lucida sans-serif;
+}
 .food-items img{
     position: relative;
     width: 100%;
@@ -345,16 +349,16 @@ h1{
     border-radius: 5px;
     width: 180px;
     cursor: pointer;
+    text-align: center;
 }
 
 .categories{
     width: 100%;
-    padding: 100px 0px;
     background-color: transparent;
  }
  .categories h2{
-    color:#edffef;
-    font-size: 75px;
+    color: white;
+    font-size: 30px;
     text-transform: capitalize;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -362,8 +366,8 @@ h1{
  }
  .ca-card{
     position: relative;
-    width: 300px;
-    height: 300px;
+    min-width: 250px;
+    height: 250px;
     margin: 10px;
     border: 5px solid #ccc;
     border-radius: 50%;
@@ -372,6 +376,8 @@ h1{
  }
  .box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
  }
  .box .ca-card .content{
     position: absolute;
@@ -442,6 +448,31 @@ h1{
 .contact-info p{
     padding: 15px;
     }
+    @media (max-width:450px) {
+        .contact{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            background: transparent;
+        }
+        .contact-info{
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            text-align: center;
+            color: #edffef;
+            font-size: 15px;
+        }
+        .contact-info h2{
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #edffef;
+        }
+        .contact-info p{
+            padding: 15px;
+            }
+    }
     .social-icons{
         display: flex;
         justify-content: center;
@@ -476,5 +507,12 @@ h1{
         grid-column: 1/-1;
         text-align: center;
         width: 100%;
+    }
+    .cart p {
+        color: #f0eaea;
+        font-size: 10px;
+        line-height: 20px;
+        font-weight: 300;
+        align-self: stretch;
     }
 }
