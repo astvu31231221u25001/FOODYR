@@ -328,7 +328,7 @@ h1{
 }
 .details-sub>h5{
     font-weight: 600;
-    font-size: 18px;
+    font-size: 25px;
 }
 .price{
     text-align: right;
@@ -441,7 +441,7 @@ h1{
     font-size: 25px;
 }
 .contact-info h2{
-    font-size: 24px;
+    font-size: 35px;
     margin-bottom: 20px;
     color: #edffef;
 }
