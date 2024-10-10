@@ -355,6 +355,8 @@ h1{
 .categories{
     width: 100%;
     background-color: transparent;
+    margin: 10px;
+    padding: 20px;
  }
  .categories h2{
     color: white;
