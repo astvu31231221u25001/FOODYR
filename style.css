@@ -280,10 +280,11 @@ nav label i {
 }
 /* MENU */
 .Menu{
-    padding: 0 10px 30px 10px;
+    padding: 0 15px 10px 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    grid-gap: 20px 40px;
+    grid-gap: 20px 20px;
+    width:100%;
   }
 .heading{
     background: red;
