@@ -346,6 +346,9 @@ h1{
     font-weight: 400;
     align-self: stretch;
 }
+.cart{
+    padding: 15px;
+}
 .cart button{
     background: red;
     border: none;
