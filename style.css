@@ -257,6 +257,7 @@ nav label i {
     .home .home-content{
         margin-left: 0px;
         text-align: center;
+        height: 360px;
     }
     
 .home .home-content .h1{
@@ -310,6 +311,7 @@ nav label i {
 .food-items h5{
       color: yellow;
       font-family: lucida sans-serif;
+      margin: 5px;
 }
 .food-items img{
     position: relative;
@@ -507,7 +509,7 @@ h1{
         cursor: pointer;
     }
     footer{
-        padding: 20px 0;
+        padding: 0px ;
         background: #182f32;
     }
     footer h5{
