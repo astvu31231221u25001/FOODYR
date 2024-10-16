@@ -481,7 +481,7 @@ h1{
             padding: 15px;
             }
             .Menu{
-                grid-template-columns: none;
+                /* grid-template-columns: none; */
             }
     }
     .social-icons{
