@@ -349,7 +349,7 @@ h1{
     align-self: stretch;
 }
 .cart{
-    padding: 15px;
+    padding: 10px;
 }
 .cart button{
     background: red;
@@ -502,7 +502,7 @@ h1{
         color: #97a2a3;
         text-align: center;
         line-height: 40px;
-        font-size: 38px;
+        font-size: 20px;
     }
     .social-icon:hover{
         color: #314e52;
@@ -513,7 +513,7 @@ h1{
         background: #182f32;
     }
     footer h5{
-        font-size: 25px;
+        font-size: 15px;
         margin-top: 10px;
         text-align: center;
         color: #97a2a3;
